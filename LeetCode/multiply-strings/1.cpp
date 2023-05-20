@@ -20,7 +20,6 @@ public:
         int carry = 0;
         string res = "";
         for(int i=0; i < num.size(); i++) {
-            cout << num[i] - '0' << " * " << x << endl;
             int s = (num[i] - '0') * x + carry;
             carry = s / 10;
             res.push_back(to_string(s % 10)[0]);
