@@ -1,5 +1,9 @@
 // https://leetcode.com/problems/valid-anagram
 
+// Approach-1: Frequency Counter
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 class Solution {
 public:
     bool isAnagram(string s, string t) {
